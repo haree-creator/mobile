@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    color: white;
+}
+
+.mobile {
+
+    margin: 100px;
+    border: 2px solid black;
+    padding: 250px 200px;
+    background-color: orangered;
+    position: relative;
+}
+.mobile .mobel {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    position: absolute;
+    top: 5rem;
+    right: 1rem;
+    left: 1rem;
+    float: right;
+    
+    
+}
+.mobel h1 {
+    font-size: 12px;
+
+}
+
+.mobel button {
+    width: 90px;
+    padding: 1px;
+    border-radius: 50px;
+    color: white;
+    background-color: orangered;
+    border: 1px solid white;
+
+}
+.savings {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 7rem;
+    left: 1rem;
+   
+}
+.savings h3{
+    color: wheat;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+.savings h4{
+    margin-top: 2px;
+    font-size: 11px;
+}
+.savings h5{
+    margin-top: 2px;
+}
+span{
+    font-size: 20px;
+    font-weight: 100;
+}
+h2 {
+    font-size: 12px;
+}
+h6 {
+    font-size: 12px;
+    margin-top: 4px;
+}
+.mobile .mobel-bottom{
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:white;
+    
+}
+.mobel-bottom input{
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px 14px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    border: .1px solid gray;
+    box-shadow:1px 1px gray;
+    border-radius: 3px;
+    
+}
+
+.hamburgar-menu {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 20px;
+    background-color:orangered;
+}
+.hamburgar-menu hr{
+    
+    margin-bottom: 3px;
+    background-color: white;
+    border: 1px solid white;
+}
+.image{
+    position: absolute;
+    top: 33px;
+    right: 15px;
+}
+.image img{
+    width: 55px;
+    border-radius: 5px;
+}
+.outer-layer{
+    position: absolute;
+    top: 130px;
+    right: 20px;
+    background-color: rgb(252, 206, 121);
+    padding: 12px;
+    border-radius: 5px;
+}
+.middle-circle{
+    background-color: orangered;
+    padding: 5px;
+    box-sizing: content-box;
+    margin: -10% auto;
+    border-radius: 60% 0;
+    transform: rotate(45deg);
+}
+.middle-circle:hover{
+    cursor: pointer;
+}
+.inner-circle{
+    background-color: orangered;
+    padding: 2px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.icon-product{
+    position: absolute;
+    top: 55%;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.figure{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+.icon-product img{
+    width: 5vh;
+}
+.icon-product figure{
+    color: black;
+}
+figure figcaption{
+    font-size: 12px;
+    margin-left: -2vh;
+}
+.transfer img{
+    position: absolute;
+    top: 10%;
+    width: 3vh;
+    margin-left: -2.5vh;
+}
+.mobile p{
+    font-size: 12px;
+    position: absolute;
+    top: 168px;
+    right: 1px;
+    color: rgb(252, 206, 121); ;
+}
+.mobile-bottom{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 30px;
+    background:#000000Bf;
+    
+}
+.mobile-bottom button{
+    width: 500px;  
+    color: white;  
+    background-color: transparent ;
+    border: solid transparent;
+    border-left: .5px solid white;
+}
+.mobile-bottom .banking {
+    background: orangered;
+    border-left: solid orangered;
+   
+}
+
+.app{
+    margin: 100px;
+    border: 2px solid black;
+    padding: 200px 200px 240px 200px;
+    position: relative;
+}
+
+.gtmobile .gtmobile-top{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 60%;
+    background: orangered;
+
+}
+.gtmobile-top .right-hand{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+.right-hand span{
+    font-size: 26px;
+}
+.gtmobile-top .left-hand{
+    position: absolute;
+    top: 65px;
+    left: 10px;
+}
+.left-hand h3{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bolder;
+}
+.left-hand h4{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+    margin-left: 1px;
+}
+.left-hand .hamburgar-menu{
+    position: absolute;
+    top: -30px;
+    left: 0;  
+}
+.left-hand .hamburgar-menu hr{
+    width: 15px;
+    border: 1.5px solid white;
+    border-radius: 1px;
+}
+
+.hamburgar-menu:hover{
+    cursor: pointer;
+
+}
+
+.gtmobile-bottom{
+    background:rgb(238, 237, 237);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 40%;
+}
+.gtmobile-bottom .bottom-top{
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.gtmobile-bottom H6{
+    color: rgb(107, 106, 106);
+    margin-left: 6px;
+    padding-bottom: 5px;
+}
+.bottom-top button{
+    background-color: white;
+    width: 500px;
+    padding: 4px;
+    border: .1px solid orangered;
+    color: orangered;
+    
+}
+.bottom-top .history{
+    background-color: orangered;
+    color: white;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+.bottom-top .range{
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+.bottom-bottom{
+    background-color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 20%;
+}
+.bottom-bottom .bottom-bottom-h1{
+ 
+    padding:10px 0 0 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: space-between;
+    color: black;
+}
+.echannel {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+.bottom-bottom-h1 h1{
+    font-size: 18px;
+    font-weight: bold;
+}
+.bottom-bottom-h1 p{
+    color: red;
+    font-size: 15px;
+}
+.bottom-bottom-h1 span{
+    font-size: 12px;
+    width: 400px;
+    color: gray;
+    padding-bottom: 5px;
+}
+.echannel .credit{
+    color: green;
+}
+
+@media (max-width: 750px) {
+    .mobile, .app{
+        margin: 0 auto;
+    }
+}
